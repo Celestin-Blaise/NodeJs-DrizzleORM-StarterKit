@@ -1,0 +1,26 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "description": "A novel about racial injustice in the Deep South.",
+    "category": "Literature",
+    "author": "Harper Lee"
+  },
+  {
+    "title": "The Matrix",
+    "description": "A hacker discovers reality is a simulation controlled by machines.",
+    "category": "Science Fiction",
+    "author": "The Wachowskis"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "description": "A classic novel about love and societal expectations.",
+    "category": "Romance",
+    "author": "Jane Austen"
+  },
+  {
+    "title": "The Hobbit",
+    "description": "A fantasy adventure of a hobbit's journey to a distant mountain.",
+    "category": "Fantasy",
+    "author": "J.R.R. Tolkien"
+  }
+]
