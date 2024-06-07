@@ -7,7 +7,7 @@ import {
   boolean,
   text,
 } from "drizzle-orm/pg-core";
-import comments from "./user_comments";
+import comments from "./comments";
 
 const posts = pgTable("posts", {
   id: serial("id").primaryKey(),
@@ -20,11 +20,6 @@ const posts = pgTable("posts", {
     .notNull()
     .defaultNow(),
   updatedAt: timestamp("updated_at", { mode: "string" }).notNull().defaultNow(),
-
-  // createdAt: timestamp("created_at", { withTimezone: true })
-  // .default(sql`CURRENT_TIMESTAMP`)
-  // .notNull(),
-  // updatedAt: timestamp("updatedAt", { withTimezone: true }),
 });
 
 export const postRelations = relations(posts, ({ many }) => ({
